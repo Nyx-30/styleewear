@@ -1,0 +1,104 @@
+body {
+  padding-top: 56px;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+.navbar {
+  background-color: #222831 !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #eeeeee !important;
+}
+
+a,
+a:hover,
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #948979 !important;
+  text-decoration: none;
+}
+
+.btn-success,
+.btn-primary {
+  background-color: #948979;
+  border-color: #948979;
+}
+
+.btn-success:hover,
+.btn-primary:hover {
+  background-color: #7e736a;
+  border-color: #7e736a;
+}
+
+.form-control:focus {
+  border-color: #948979;
+  box-shadow: 0 0 0 0.25rem rgba(148, 137, 121, 0.5);
+}
+
+.alert-success {
+  background-color: #7e736a;
+  color: #eeeeee;
+  border-color: #948979;
+}
+
+.card {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+.card-body {
+  padding: 0.75rem;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.card-img-top {
+  max-height: 140px;
+  object-fit: cover;
+}
+.nav-link {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  margin: 0 0.2rem;
+}
+
+.hero {
+  background-image: url('images/home-background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-image: url('images/product-background.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
